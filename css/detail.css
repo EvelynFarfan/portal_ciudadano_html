@@ -1,0 +1,69 @@
+.titleFamily{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold
+}
+.titleFamilyPrincipal{
+  font-size: 30px;
+}
+.back{
+  margin-top: 2%;
+}
+.iconArrowBack{
+  color: #00b1f1;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 1%;
+}
+.textArrowBack{
+  color: #838383;
+  text-transform: uppercase;
+}
+.detail{
+  margin:  25px 0 0 0;
+}
+.detail .detailNameUser{
+  background: #fff;
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #c7c7c7;
+}
+.imgDetail{
+  width: 50px;
+  height: 50px;
+}
+.contentNameDetail{
+  margin-top: 13px;
+}
+.nameDetail{
+  font-size: 20px;
+  font-weight: bold;
+}
+.iconGenerDetail{
+  margin-top: 15px;
+}
+.menuDetailFamily{
+  margin: 20px 0 0 0;
+}
+.menuDetailFamily ul.nav-tabs li.activado{
+  color: #00b1f1;
+  border-bottom: 2px solid #00b1f1;
+}
+.menuDetailFamily ul.nav-tabs li.activado .textMenuDetailFamily{
+  color: #00b1f1;
+}
+.menuDetailFamily ul.nav-tabs li:hover{
+  border-bottom: 2px solid #00b1f1;
+}
+.nav-tabs>li>a:hover {
+  border-color: rgba(0,0,0,0); 
+}
+.textMenuDetailFamily{
+  color: gray;
+}
+.menuDetailFamily ul.nav-tabs li:hover .textMenuDetailFamily{
+  color: #00b1f1;
+}
+.infoDetail{
+  margin: 50px 0 0 0;
+}
