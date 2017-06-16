@@ -54,24 +54,21 @@ $(document).ready(function(){
       $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
   });  
   $(".linkPerfil a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
+      $("main .rad-body-wrapper .container-fluid").load('perfil.html');
   });  
-  $(".linkDashboard a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
+  $(".linkHce a").click(function(){
+      $("main .rad-body-wrapper .container-fluid").load('hce.html');
   });
-  $(".linkDashboard a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
+  $(".linkFamilia a").click(function(){
+      $("main .rad-body-wrapper .container-fluid").load('familia.html');
   });  
-  $(".linkDashboard a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
+  $(".linkServicios a").click(function(){
+      $("main .rad-body-wrapper .container-fluid").load('servicios.html');
   }); 
-  $(".linkDashboard a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
+  $(".linkPreguntas a").click(function(){
+      $("main .rad-body-wrapper .container-fluid").load('preguntas.html');
   });  
-  $(".linkDashboard a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
-  });  
-  $(".linkDashboard a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
+  $(".linkAyuda a").click(function(){
+      $("main .rad-body-wrapper .container-fluid").load('ayuda.html');
   });    
 })
