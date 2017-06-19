@@ -322,6 +322,16 @@ li.liMenu.activate {
   visibility: hidden;
   transition: .5s;
 }
+.flecha{
+  fill: none;
+  stroke: #00B1F1;
+  stroke-linecap: square;
+  stroke-width: 2;
+  stroke-dasharray: 14 40;
+  stroke-dashoffset: 0!important;
+  -webkit-transition: stroke-dashoffset 0.3s;
+  transition: stroke-dashoffset 0.3s;
+}
 /*-------------------- Media Querie (max-width:850px) --------------------*/
 @media screen and (max-width: 850px) {
   /*--------------------Navbar--------------------*/
@@ -397,6 +407,21 @@ li.liMenu.activate {
   .rad-body-wrapper{
     left: 230px !important;
     padding: 2% 2% 0 2%;
+  }
+}
+@media (min-width: 850px) and (max-width: 990px){
+  .rad-body-wrapper{
+    width: 72%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1280px){
+  .rad-body-wrapper{
+    width: 80%;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1700px){
+  .rad-body-wrapper{
+    width: 82%;
   }
 }
 

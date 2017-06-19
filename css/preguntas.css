@@ -4,7 +4,7 @@
 }
 .panel-default > .panelHeadingQuestions{
 	background-color: #fff;
-	padding: 16px 15px;
+	padding: 16px 15px 14px 15px;
 }
 .panelBodyQuestions{
 	border-top: 1px solid transparent !important;
