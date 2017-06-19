@@ -35,7 +35,7 @@ $(document).ready(function(){
   initializeCharts();
 
   $('.collapse__head').click(function(){
-    $(this).toggleClass('open'); 
+
     $(this).parent().find('.collapse__body').slideToggle('slow');
     $(this).find("path").toggleClass("flecha");
   });
