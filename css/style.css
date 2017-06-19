@@ -295,11 +295,10 @@ li.liMenu.activate {
   position: absolute;
   left: 230px;
   top: 75px;
-  width: auto;
-  right: 30px;
+  width: 88%;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  padding: 2% 0 0 2%;
+  padding: 2% 2% 0 2%;
 }
 .rad-body-wrapper.rad-nav-min {
   left: 50px;
@@ -380,6 +379,7 @@ li.liMenu.activate {
   .rad-body-wrapper {
     left: 0px;
     top: 125px;
+    width: 100%;
     position: relative;
   }
   .rad-body-wrapper.rad-nav-min {
@@ -396,7 +396,7 @@ li.liMenu.activate {
   }
   .rad-body-wrapper{
     left: 230px !important;
-    padding: 2% 0 0 2%;
+    padding: 2% 2% 0 2%;
   }
 }
 

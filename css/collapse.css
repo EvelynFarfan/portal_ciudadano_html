@@ -127,6 +127,11 @@
 .iconGener{
   padding-top: 75%;
 }
+@media screen and (max-width: 620px){
+  .collapse .collapse__head {
+    width: 100% !important;
+  }
+}
 @media screen and (max-width: 850px){
   .card{
     width: 100%;
@@ -146,7 +151,7 @@
     display: none;
   }
 }
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 667px) and (max-width: 990px){
   .card{
     width: 100%;
   }
@@ -156,14 +161,9 @@
     width: 100%;
   }
 }
-@media (min-width: 667px) and (max-width: 990px){
+@media (min-width: 1200px) and (max-width: 1600px){
   .card{
     width: 100%;
-  }
-}
-@media screen and (max-width: 620px){
-  .collapse .collapse__head {
-    width: 100% !important;
   }
 }
 @media screen and (max-width: 1250px){

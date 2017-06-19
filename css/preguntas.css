@@ -1,0 +1,18 @@
+.panel-group .panelQuestions{
+	border: none;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.05);
+}
+.panel-default > .panelHeadingQuestions{
+	background-color: #fff;
+	padding: 16px 15px;
+}
+.panelBodyQuestions{
+	border-top: 1px solid transparent !important;
+	padding: 15px 15px 20px 15px;
+}
+.panel-group .panel+.panel {
+    margin-top: 15px;
+}
+.panelQuestionstitle {
+    color: #00b1f1;
+}
