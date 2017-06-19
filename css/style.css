@@ -197,7 +197,7 @@ a, a:hover, a:focus, a:visited, a:active {
   position: fixed;
   background: #00B1F1;
   width: 225px;
-  height: 100vh;
+  height: 100%;
   top: 50px;
   left: 0;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 2px 4px 8px rgba(0, 0, 0, 0.28);
@@ -361,6 +361,9 @@ li.liMenu.activate {
   }
   .navbar-right li.dropdown ul.dropdown-menu{
     margin-left: 17%;
+  }
+  .user{
+    display: none;
   }
   /*--------------------SideBar--------------------*/
   .rad-sidebar {
