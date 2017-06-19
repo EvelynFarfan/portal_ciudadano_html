@@ -131,6 +131,20 @@
   .card{
     width: 100%;
   }
+  .nav--secondary .container-cards{
+    padding-left: 0;
+  }
+  .collapse .collapse__head .nav-indicator {
+    position: absolute;
+    left: 22em;
+  }
+  .collapse__body .container-cards{
+    padding-left: 15px;
+  }
+  .collapse .collapse__body{
+    padding: 4% 0px 1% 0;
+    display: none;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1600px){
   .card{
@@ -145,22 +159,6 @@
 @media (min-width: 667px) and (max-width: 990px){
   .card{
     width: 100%;
-  }
-}
-@media screen and (max-width: 850px){
-  .nav--secondary .container-cards{
-    padding-left: 0;
-  }
-  .collapse .collapse__head .nav-indicator {
-    position: absolute;
-    left: 22em;
-  }
-  .collapse__body .container-cards{
-    padding-left: 15px;
-  }
-  .collapse .collapse__body{
-    padding: 4% 0px 1% 0;
-    display: none;
   }
 }
 @media screen and (max-width: 620px){
