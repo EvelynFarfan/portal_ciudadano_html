@@ -47,27 +47,6 @@ $(document).ready(function(){
   $('ul.nav-tabs li a.textMenuDetailFamily').click(function(){ 
     $('ul.nav-tabs li').removeClass('activado');
     $(this).parent().addClass('activado');
+
   });
-  // LOAD()
-  $(".linkDashboard a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('dashboard.html');
-  });  
-  $(".linkPerfil a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('perfil.html');
-  });  
-  $(".linkHce a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('hce.html');
-  });
-  $(".linkFamilia a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('familia.html');
-  });  
-  $(".linkServicios a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('servicios.html');
-  }); 
-  $(".linkPreguntas a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('preguntas.html');
-  });  
-  $(".linkAyuda a").click(function(){
-      $("main .rad-body-wrapper .container-fluid").load('ayuda.html');
-  });    
 })
