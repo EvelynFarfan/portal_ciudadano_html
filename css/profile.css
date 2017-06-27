@@ -1,0 +1,28 @@
+.boxNameProfile{
+	margin-bottom: 2%;
+}
+.boxProfileOne{
+	background-color: #fff;
+    padding: 2% 2% 1.5% 2%;;
+    box-shadow: 2px 2px 3px #c7c7c7;
+}
+.nameProfile{
+	color: #33CCCC;
+	font-weight: bold;
+	font-size: 17px;
+}
+.photoProfile{
+	border: 7px solid #F8F6F5;;
+}
+.pointProfile{
+	margin: 0 20px 0 0;
+}
+@media screen and (max-width: 850px){
+	.boxProfileOne {
+	    padding: 5% 3% 3% 4%;
+	}
+	.boxNameProfile{
+		margin: 5% 0;
+		text-align: center;
+	}
+}

@@ -10,7 +10,7 @@
   margin-top: 2%;
 }
 .iconArrowBack{
-  color: #00b1f1;
+  color: #33cccc;
   font-size: 18px;
   font-weight: bold;
   margin-right: 1%;
@@ -29,8 +29,7 @@
   box-shadow: 2px 2px 5px #c7c7c7;
 }
 .imgDetail{
-  width: 50px;
-  height: 50px;
+   height: 50px;
 }
 .contentNameDetail{
   margin-top: 13px;
@@ -46,14 +45,14 @@
   margin: 20px 0 0 0;
 }
 .menuDetailFamily ul.nav-tabs li.activado{
-  color: #00b1f1;
-  border-bottom: 2px solid #00b1f1;
+  color: #33cccc;
+  border-bottom: 2px solid #33cccc;
 }
 .menuDetailFamily ul.nav-tabs li.activado .textMenuDetailFamily{
-  color: #00b1f1;
+  color: #33cccc;
 }
 .menuDetailFamily ul.nav-tabs li:hover{
-  border-bottom: 2px solid #00b1f1;
+  border-bottom: 2px solid #33cccc;
 }
 .nav-tabs>li>a:hover {
   border-color: rgba(0,0,0,0); 
@@ -62,7 +61,7 @@
   color: gray;
 }
 .menuDetailFamily ul.nav-tabs li:hover .textMenuDetailFamily{
-  color: #00b1f1;
+  color: #33cccc;
 }
 .infoDetail{
   margin: 50px 0 0 0;

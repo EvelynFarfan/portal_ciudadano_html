@@ -15,7 +15,6 @@ body {
 a, a:hover, a:focus, a:visited, a:active {
   text-decoration: none;
 }
-
 @-webkit-keyframes flipInX {
   0% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
@@ -56,6 +55,9 @@ a, a:hover, a:focus, a:visited, a:active {
 .titleFamilyPrincipal{
   font-size: 30px;
 }
+.textBold{
+  font-weight: bold;;
+}
 /*---------------------------------Navbar-----------------------------------------*/
 .rad-navigation {
   position: fixed;
@@ -63,7 +65,7 @@ a, a:hover, a:focus, a:visited, a:active {
   right: 0;
   top: 0;
   height: 50px;
-  box-shadow: 0 0px 9px 4px rgba(0, 0, 0, 0.1), 0 -5px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow:  0 2px 6px 2px rgba(76, 76, 76, 0.1);
   background: white;
   z-index: 10000;
 }
@@ -195,12 +197,12 @@ a, a:hover, a:focus, a:visited, a:active {
 .rad-sidebar {
   z-index: 9999;
   position: fixed;
-  background: #00B1F1;
+  background: #33CCCC;
   width: 225px;
   height: 100%;
   top: 50px;
   left: 0;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 2px 4px 8px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 6px 2px rgba(76, 76, 76, 0.22);
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -213,7 +215,7 @@ a, a:hover, a:focus, a:visited, a:active {
   height: 50px;
 }
 li.liMenu.activate {
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(0, 0, 0, 0.12);
 }
 .rad-sidebar li a {
   display: inline-block;
@@ -235,7 +237,7 @@ li.liMenu.activate {
   transform: translate3d(0, 0, 0);
 }
 .rad-sidebar li:hover {
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(0, 0, 0, 0.12);
 }
 .rad-sidebar li a:hover{
   text-decoration: none;
@@ -260,9 +262,9 @@ li.liMenu.activate {
   color: #fff;
 }
 .user {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #ffffff;
   padding-bottom: 30px;
-  margin-top: 40px;
+  margin-top: 40px
 }
 .user .photo{
   width: 100px;
@@ -324,7 +326,7 @@ li.liMenu.activate {
 }
 .flecha{
   fill: none;
-  stroke: #00B1F1;
+  stroke: #33CCCC;
   stroke-linecap: square;
   stroke-width: 2;
   stroke-dasharray: 14 40;
@@ -406,7 +408,7 @@ li.liMenu.activate {
   }
   .rad-body-wrapper{
     left: 230px !important;
-    padding: 2% 2% 0 2%;
+    padding: 2% 2% 2% 2%;
   }
 }
 @media (min-width: 850px) and (max-width: 990px){
